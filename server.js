@@ -14,7 +14,7 @@ app.use('/', dashboard);
 app.use('/', search);
 
 app.get([
-  '/',
+  '/'
 ], (req, res) => {
   res.sendFile(`${__dirname}/public/index.html`);
 });
